@@ -8,9 +8,3 @@ angular.module('sampleApp', ['todoController', 'todoService', 'ui.router']).conf
         templateUrl: 'partials/login.html'
     });
 });
-
-angular.module('sampleApp').config(['$httpProvider', function($httpProvider) {
-    $httpProvider.defaults.useXDomain = true;
-    delete $httpProvider.defaults.headers.common['X-Requested-With'];
-}
-]);
