@@ -1,5 +1,5 @@
 {
-  "name"         : "Cisco App",
+  "name"         : "CiscoApp",
   "version"      : "0.0.0",
   "description"  : "Simple App to retrieve amazon data.",
   "main"         : "server.js",
