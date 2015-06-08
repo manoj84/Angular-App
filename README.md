@@ -6,6 +6,7 @@ Angular, Node, Amazon Node SDK, Twitter Bootstrap, Protractor
 
 #How to Run
 -- Clone the repository
+-- cd into directory
 -- npm install
 -- node server.js
 
@@ -21,5 +22,5 @@ Angular, Node, Amazon Node SDK, Twitter Bootstrap, Protractor
    TODO: Implement a spinner while data is getting fetched.
    
 #Testing
-   I have written some end to end tests using protractor. Please run 'web-driver manager start' in a separate console, to       start web driver. Open a new console and run 'protractor conf.js'. I have only written tests for Login/Logout/interceptor.    More tests should be written for testing pagination ad grid.     
+   I have written some end to end tests using protractor. Please run 'web-driver manager start' in a separate console, to       start web driver. Open a new console, navigaite to tests folder and run 'protractor conf.js'. I have only written tests      for Login/Logout/interceptor. More tests should be written for testing pagination ad grid.     
        
