@@ -9,8 +9,8 @@ angular.module('sampleApp', ['todoController', 'todoService', 'ui.router']).conf
     });
 });
 
-//Remove CORS header
-angular.module('sampleApp')
-    .config(function ($httpProvider) {
-        delete $httpProvider.defaults.headers.common['X-Requested-With'];
-    });
+angular.module('sampleApp').config(['$httpProvider', function($httpProvider) {
+    $httpProvider.defaults.useXDomain = true;
+    delete $httpProvider.defaults.headers.common['X-Requested-With'];
+}
+]);
