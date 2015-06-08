@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="css/grid.css">
+<div ng-controller="GridController">
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+                Cisco AWS Console
+            </a>
+        </div>
+
+        <button type="button" id="signOut" class="btn btn-danger pull-right"  style="margin-top: 8px" ng-click="signOut()">
+            Sign Out
+        </button>
+    </div>
+
+</nav>
+    <div id="grid1"  ui-grid="gridOptions" ui-grid-resize-columns  ui-grid-pagination style="height: 400px"></div>
+<br>
+
+
+<button type="button" class="btn btn-success" ng-click="previousButton()" ng-disabled = "disablePreviousButton">
+   Back
+</button>
+<button type="button" class="btn btn-success" ng-click="nextButton()" ng-disabled = "disableNextButton">
+    Next
+</button>
+</div>

@@ -1,0 +1,51 @@
+<!doctype html>
+
+<!-- ASSIGN OUR ANGULAR MODULE -->
+<html ng-app="sampleApp">
+
+	<!-- META -->
+	<meta charset="utf-8">
+
+
+	<title>Cisco AWS App</title>
+
+	<!-- SCROLLS -->
+	<link rel="stylesheet" href="js/bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="js/bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="js/bower_components/angular-ui-grid/ui-grid.min.css">
+	<style>
+		html 					{ overflow-y:scroll; }
+		body 					{ padding-top:50px; }
+	</style>
+
+	<!-- SPELLS -->
+	<script src="js/bower_components/jquery/dist/jquery.js"></script>
+	<script src="js/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="js/bower_components/angular/angular.js"></script>
+	<script src="js/bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+	<script src="js/bower_components/angular-ui-grid/ui-grid.min.js"></script>
+
+	<script src="js/core.js"></script> <!-- load our main application -->
+	<script src="js/controllers/main.js"></script> <!-- load up our controller -->
+	<script src="js/services/todos.js"></script> <!-- load our todo service -->
+
+</head>
+<!-- SET THE CONTROLLER -->
+<body ng-controller="mainController">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+
+				<div ui-view>
+
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+</body>
+</html>
