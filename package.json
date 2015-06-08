@@ -1,9 +1,9 @@
 {
-  "name"         : "node-todo",
+  "name"         : "Cisco App",
   "version"      : "0.0.0",
-  "description"  : "Simple todo application.",
+  "description"  : "Simple App to retrieve amazon data.",
   "main"         : "server.js",
-  "author"       : "Scotch",
+  "author"       : "Manoj",
   "dependencies" : {
     "express"         : "~4.6.1",
     "mongoose"        : "~3.8.13",
