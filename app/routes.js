@@ -1,5 +1,5 @@
-var aws_access_key_id = 'AKIAJZZ25PCBSAKCIICQ';
-var aws_secret_access_key = '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';
+var aws_access_key_id = '';
+var aws_secret_access_key = '';
 
 var AWS = require('aws-sdk');
 AWS.config.update({accessKeyId: aws_access_key_id, secretAccessKey: aws_secret_access_key, region: 'us-east-1'});
